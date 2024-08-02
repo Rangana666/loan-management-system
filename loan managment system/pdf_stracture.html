@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>D&P Investment - Summary Report</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f9fa;
+        }
+
+        .pdf-content {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+            text-align: center;
+        }
+
+        h1 {
+            color: #007bff;
+            margin-bottom: 20px;
+        }
+
+        label {
+            font-weight: bold;
+            display: block;
+            margin-top: 15px;
+            margin-bottom: 5px;
+            color: #555;
+        }
+
+        p {
+            margin: 5px 0;
+            color: #333;
+        }
+
+        hr {
+            border: 0;
+            height: 1px;
+            background: #ddd;
+            margin: 20px 0;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- PDF Content -->
+    <div class="pdf-content">
+        <h1>D&P Investment</h1>
+        <hr />
+        <div class="row">
+            <div class="col-md-12">
+                <label>Name:</label>
+                <p id="view_name"></p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <label>ID Number:</label>
+                <p id="view_borrower_id"></p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <label>Loan Amount (rupees):</label>
+                <p id="view_loanamount"></p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <label>Loan Interest (%):</label>
+                <p id="view_loaninterest"></p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <label>Total Interest (%):</label>
+                <p id="view_totalinterest"></p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <label>Total Payment:</label>
+                <p id="view_totalpayment"></p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <label>Monthly Rental:</label>
+                <p id="view_rental"></p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <label>Loan Start Date:</label>
+                <p id="view_sdate"></p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <label>Loan End Date:</label>
+                <p id="view_edate"></p>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
